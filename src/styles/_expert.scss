@@ -14,6 +14,10 @@
   background-size: cover;
   background-blend-mode: multiply;
 
+  @include sma-screen {
+    background-attachment: scroll;
+  }
+
   .expert-container {
     display: flex;
     align-items: center;

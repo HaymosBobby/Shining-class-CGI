@@ -16,6 +16,10 @@
     .services-heading {
       @include heading;
     }
+
+    @include sma-screen {
+      background-attachment: scroll;
+    }
   }
   .services-container {
     padding: 0 100px;
