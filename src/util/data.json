@@ -75,27 +75,27 @@
       {
         "title": "Lithium mining",
         "description": "Our expertise lies in the extraction and processing of lithium, a key componentin renewanle energy.",
-        "icon": "arcticons:lithium"
+        "icon": "mynaui:letter-l-diamond"
       },
       {
         "title": "Tourmaline mining",
         "description": "Discover the beauty and value of tourmaline through our sustainable mining practices.",
-        "icon": "game-icons:gold-bar"
+        "icon": "ph:diamonds-four"
       },
       {
         "title": "Tantalite mining",
         "description": " We extract tantalite, a valuable mineral used in the electronics industry, with a focusn ethical and resposible mining.",
-        "icon": "arcticons:lithium"
+        "icon": "simple-icons:thingiverse"
       },
       {
         "title": "Colombite mining",
         "description": "Our mining operations yield high-quality colombite, a mineral used in various industrial applications.",
-        "icon": "game-icons:gold-bar"
+        "icon": "fe:diamond"
       },
       {
         "title": "Processing",
         "description": "Discover the power of efficient processing for optimal productivity in the mining industry.",
-        "icon": "arcticons:lithium"
+        "icon": "fluent-mdl2:processing"
       }
     ]
   },
@@ -453,12 +453,12 @@
           "description": "With our deep industry expertise, we're equipped to handle even the most complex challenges and deliver top-notch results."
         },
         {
-          "icon": "material-symbols-light:punch-clock-outline-rounded",
+          "icon": "mage:light-bulb",
           "title": "Innovation",
           "description": "By leveraging cutting-edge technologies and staying up-to-date with industry advancements, we're able to provide our clients with the most innovative solutions that drive success."
         },
         {
-          "icon": "material-symbols-light:punch-clock-outline-rounded",
+          "icon": "ph:seal-check",
           "title": "Quality",
           "description": "Our streamlined processes, attention to detail, and commitment to continuous improvement enable us to consistently deliver high-quality results on time and within budget."
         }
