@@ -13,7 +13,7 @@ const Footer = () => {
     slidesToScroll: 1,
     autoplay: true,
     speed: 2000,
-    autoplaySpeed: 3000,
+    autoplaySpeed: 2500,
     cssEase: "linear",
     responsive: [
       {
@@ -26,6 +26,7 @@ const Footer = () => {
         breakpoint: 567,
         settings: {
           slidesToShow: 1,
+          autoplaySpeed: 3000,
         },
       },
     ],
