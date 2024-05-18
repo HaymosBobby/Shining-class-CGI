@@ -1,0 +1,78 @@
+.project-page {
+  .project-page-container {
+    padding: 100px;
+    @include padding;
+
+    .top {
+      display: flex;
+      gap: 30px;
+      margin-bottom: 50px;
+
+      .image {
+        flex: 8;
+        min-height: 300px;
+        max-height: 350px;
+        @include hidden;
+        img {
+          transition: all 0.3s ease-in-out;
+        }
+        &:hover {
+          img {
+            scale: 1.2;
+          }
+        }
+      }
+      .project-details {
+        flex: 4;
+
+        h2 {
+          margin-bottom: 10px;
+        }
+
+        .project-details-box {
+          border: 1px solid $color-secondary;
+          padding: 20px;
+
+          ul {
+            li {
+              padding: 15px 0;
+              text-transform: capitalize;
+
+              span {
+                font-weight: 700;
+              }
+
+              + li {
+                border-top: 1px dotted $color-secondary;
+              }
+            }
+          }
+        }
+      }
+
+      @include sma-screen {
+        flex-direction: column;
+      }
+    }
+
+    .center {
+      margin-bottom: 50px;
+
+      h2 {
+        margin-bottom: 20px;
+      }
+    }
+
+    .bottom {
+      .related {
+        @include project;
+        margin-top: 20px;
+
+        .project {
+          flex: 1 0 28%;
+          min-width: 350px;
+        }
+      }
+    }
+  }
+}

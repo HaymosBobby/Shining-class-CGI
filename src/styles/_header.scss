@@ -1,0 +1,38 @@
+.header {
+  background: linear-gradient(#00000060, #00000060),
+    #00000099 url("../../public/images/pit.jpg") no-repeat center/cover;
+  background-blend-mode: multiply;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 20px 0;
+  color: $color-white;
+  .header-container {
+    text-align: center;
+    h1 {
+      margin-bottom: 10px;
+    }
+
+    .navigator {
+      background: $color-primary;
+      padding: 10px;
+      border-radius: 25px;
+      display: flex;
+      align-items: center;
+
+      span {
+        display: inline-block;
+        margin: 0 10px;
+
+        &:first-child {
+          a {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+          }
+        }
+      }
+    }
+  }
+}

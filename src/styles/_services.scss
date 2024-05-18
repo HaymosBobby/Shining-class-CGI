@@ -1,0 +1,86 @@
+.services {
+  color: $color-white;
+
+  .services-heading-container {
+    padding: 100px;
+    background: linear-gradient(#00000080, #00000040),
+      rgba(0, 0, 0, 0.6) url("../../public/images/pit.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: multiply;
+    height: 500px;
+    @include padding;
+
+    .services-heading {
+      @include heading;
+    }
+  }
+  .services-container {
+    padding: 0 100px;
+    position: relative;
+    top: -150px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+
+    .service {
+      border: 1px solid $color-white;
+      color: $color-secondary;
+      background: $color-white;
+      flex: 0 0 28%;
+      padding: 50px 20px;
+      box-shadow: 1px 1px 10px #00000080;
+      display: flex;
+      flex-direction: column;
+      min-width: 270px;
+      transition: all 0.3s ease-in-out;
+      text-align: center;
+      .icon {
+        font-size: 3rem;
+        margin-bottom: 30px;
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        background: $color-secondary;
+        color: $color-white;
+        padding: 5px;
+        align-self: center;
+      }
+
+      .content {
+        h3 {
+          text-transform: uppercase;
+          margin-bottom: 20px;
+        }
+      }
+
+      &:hover {
+        box-shadow: 10px 10px $color-secondary;
+      }
+    }
+
+    @include mid-screen {
+      padding: 0 70px;
+      .service {
+        flex: 0 0 46%;
+      }
+    }
+    @include sma-screen {
+      padding: 0 50px;
+      .service {
+        flex: 0 0 100%;
+      }
+    }
+
+    @include xma-screen {
+      padding: 0 20px;
+    }
+  }
+}

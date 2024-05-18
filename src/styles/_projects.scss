@@ -1,0 +1,14 @@
+.projects {
+  padding: 100px;
+  @include padding;
+
+  .projects-container {
+    .project-heading {
+      @include heading;
+    }
+
+    .project-container {
+      @include project;
+    }
+  }
+}

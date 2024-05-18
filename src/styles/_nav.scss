@@ -1,0 +1,403 @@
+nav {
+  background: #00000004;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  box-shadow: $color-boxShadow;
+  z-index: 99;
+
+  .nav-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: $color-white;
+    @include hidden;
+
+    .bg-logo {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      left: 100px;
+      height: 60px;
+
+      img {
+        object-fit: contain !important;
+        object-position: 0%;
+        height: 60px;
+      }
+    }
+
+    .top {
+      display: flex;
+      justify-content: flex-end;
+      height: 40px;
+      overflow: hidden;
+
+      .con-soc {
+        background-color: $color-primary;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        right: -15px;
+        padding: 0 115px 0 30px;
+        @include skew;
+        width: 80%;
+
+        .nav-contact {
+          ul {
+            li {
+              gap: 10px;
+            }
+          }
+        }
+
+        .nav-contact,
+        .nav-socials {
+          @include unskew;
+
+          ul {
+            display: flex;
+            li {
+              padding: 10px 15px;
+              border-right: 0.5px solid $color-white;
+              height: 40px;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              font-size: 0.95rem;
+            }
+          }
+        }
+      }
+    }
+
+    .bottom {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      padding: 0 80px 0 100px;
+      height: 80px;
+      transform-origin: top;
+      transition: all 0.6s ease-in-out;
+
+      .md-logo {
+        display: none;
+        height: 60px;
+        img {
+          object-fit: contain;
+          object-position: 0%;
+          height: 60px;
+        }
+      }
+
+      .nav-links {
+        ul {
+          display: flex;
+          gap: 5px;
+
+          li {
+            font-weight: 500;
+            padding: 25px 20px;
+          }
+        }
+      }
+
+      .mobile-toggler {
+        display: none;
+        cursor: pointer;
+
+        .toggle-container {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          width: 50px;
+          height: 50px;
+          padding: 7px 12px;
+
+          .line {
+            height: 2px;
+            width: 100%;
+            background: $color-white;
+            transition: all 0.3s ease-in-out;
+
+            &:nth-child(2) {
+              margin: 6px 0;
+            }
+          }
+        }
+
+        &.mobile-nav-active {
+          .line {
+            &:first-child {
+              transform: rotate(45deg) translate(5px, 6px);
+            }
+
+            &:nth-child(2) {
+              opacity: 0;
+            }
+
+            &:last-child {
+              transform: rotate(-45deg) translate(5px, -6px);
+            }
+          }
+        }
+      }
+    }
+
+    @include big-screen {
+      .bg-logo {
+        display: none;
+      }
+
+      .top {
+        display: block;
+
+        .con-soc {
+          padding: 0 100px;
+          right: 0;
+          width: 100%;
+          transform: skewX(0);
+
+          .nav-contact {
+            ul {
+              a:first-child {
+                li {
+                  padding-left: 0;
+                }
+              }
+            }
+          }
+
+          .nav-contact,
+          .nav-socials {
+            transform: skewX(0);
+          }
+        }
+      }
+
+      .bottom {
+        .md-logo {
+          display: block;
+        }
+
+        justify-content: space-between;
+      }
+    }
+
+    @include mid-screen {
+      height: 100%;
+      .top {
+        display: none;
+      }
+
+      .bottom {
+        padding: 0 70px;
+
+        .nav-links {
+          display: none;
+        }
+
+        .mobile-toggler {
+          display: block;
+        }
+      }
+    }
+
+    @include sma-screen {
+      .bottom {
+        padding: 0 50px;
+      }
+    }
+
+    @include xma-screen {
+      .bottom {
+        padding: 20px;
+      }
+    }
+  }
+
+  .mobile-navigations {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 300px;
+    background: $color-primary;
+    transform: translateX(-100vh);
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+    box-shadow: $color-boxShadow;
+    overflow-y: auto;
+
+    .mobile-navigation-container {
+      padding: 30px;
+      position: relative;
+      color: $color-white;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+
+      .cancel {
+        position: absolute;
+        right: 30px;
+        top: 30px;
+        width: 30px;
+        height: 30px;
+        padding: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        border: 1px solid $color-white;
+        cursor: pointer;
+
+        .line {
+          height: 2px;
+          width: 100%;
+          background: $color-white;
+
+          &:first-child {
+            transform: rotate(45deg) translate(1px, 1px);
+          }
+
+          &:last-child {
+            transform: rotate(-45deg) translateY(-1px);
+          }
+        }
+      }
+
+      .mobile-nav-links {
+        margin-top: 50px;
+        // margin-bottom: 100px;
+        ul {
+          display: flex;
+          flex-direction: column;
+
+          li {
+            padding: 20px;
+            position: relative;
+            display: inline-block;
+
+            &::after {
+              content: "";
+              position: absolute;
+              bottom: 0;
+              left: 0;
+              height: 2px;
+              width: 100%;
+              background-color: $color-white;
+              transform: scaleX(0);
+              transition: all 0.3s ease-in-out;
+            }
+
+            &:hover::after {
+              transform: scaleX(1);
+            }
+          }
+        }
+      }
+
+      .mobile-socials {
+        padding: 20px;
+
+        ul {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 10px;
+
+          li {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 35px;
+            height: 35px;
+            border: 1px solid $color-white;
+            border-radius: 50%;
+            // padding: 5px;
+            background: $color-white;
+            color: $color-primary;
+
+            svg {
+              height: 15px;
+              width: 15px;
+            }
+          }
+        }
+      }
+    }
+
+    &.mobile-nav-active {
+      transform: translateX(0);
+      opacity: 1;
+    }
+
+    &.sticky {
+      position: fixed !important;
+      top: 0;
+      left: 0;
+      right: 0;
+
+      .bg-logo {
+        display: none;
+      }
+
+      .top {
+        display: none;
+      }
+    }
+  }
+
+  &.bgd-dark {
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: $color-secondary;
+    @include current;
+  }
+
+  &.sticky {
+    position: fixed;
+    background: $color-secondary;
+    animation: fade-down 0.5s ease-in-out;
+    @include current;
+
+    @keyframes fade-down {
+      from {
+        opacity: 0;
+        top: -10px;
+      }
+      to {
+        opacity: 1;
+        top: 0;
+      }
+    }
+
+    .nav-container {
+      .bg-logo {
+        display: none;
+      }
+
+      .top {
+        display: none;
+      }
+
+      .bottom {
+        display: flex;
+        justify-content: space-between;
+
+        .md-logo {
+          display: block;
+        }
+      }
+    }
+  }
+}

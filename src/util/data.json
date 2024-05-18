@@ -1,0 +1,491 @@
+{
+  "sliderData": {
+    "heroData": {
+      "useFor": "hero",
+      "settings": {
+        "infinite": true,
+        "speed": 1500,
+        "autoplay": true,
+        "autoplaySpeed": 5000,
+        "slidesToShow": 1,
+        "slidesToScroll": 1,
+        "arrows": false,
+        "dots": true,
+        "cssEase": "ease-in-out",
+        "lazyLoad": "ondemand"
+      },
+      "info": [
+        {
+          "imgLink": "/images/dumpers.jpg",
+          "title": "Cutting-edge technology",
+          "description": "Discover how our operations leverage the latest advancements to maximize efficiency and productivity."
+        },
+        {
+          "imgLink": "/images/engineers.jpg",
+          "title": "Diverse mineral portfolio",
+          "description": "Dive into the wide range of minerals we extract, from precious metals to industrial minerals."
+        },
+        {
+          "imgLink": "/images/pit.jpg",
+          "title": "Innovation in action",
+          "description": "Witness our innovative approaches to mining, from automated processes to advanced data analytics."
+        },
+        {
+          "imgLink": "/images/mine-blue.jpg",
+          "title": "Sustainable practices",
+          "description": "Explore how we priotize environmental stewardship and implement sustainable mining practices."
+        }
+      ]
+    }
+  },
+  "aboutData": {
+    "aboutTitle": "About Us",
+    "aboutSubTitle": "Unleashing Mining Power: Your Trusted Partner.",
+    "aboutDescription": "As a responsible mining company, we aim to be a leading force in the global mining industry, providing a world class approach to mining, not neglecting our social responsibility, practising safe mining and maximizing the potentials of all involved.",
+    "imgLink": "/images/tunnel.jpg",
+    "accordionData": [
+      {
+        "title": "Global technological advancement",
+        "description": "To contribute to the global technological advancement through mining of lithium in the drive to achieve a pollution free atmosphere."
+      },
+      {
+        "title": "Impacting lives",
+        "description": "To contribute to the global economy by impacting lives through the provision of jobs, sharing developmental benefits with the people living in and around the mines."
+      },
+      {
+        "title": "Sustainable growth",
+        "description": " To ensure sustainable growth of the company by following best practices of corporate governance and promoting ecological balance and mineral conservation."
+      },
+      {
+        "title": "Green mining",
+        "description": "To contribute to the global climate drive by practising green mining."
+      }
+    ]
+  },
+  "servicesData": {
+    "serviceTitle": "Our Services",
+    "serviceSubTitle": "What we do",
+    "serviceDescription": "Our mining industry offers a range of services, including exploration, extraction, processing, and refining, with a focus on safety, efficiency, and profitability.",
+    "serviceData": [
+      {
+        "title": "Gold mining",
+        "description": "We specialize in extracting and refining high-quality gold from our mining site.",
+        "icon": "game-icons:gold-bar"
+      },
+      {
+        "title": "Lithium mining",
+        "description": "Our expertise lies in the extraction and processing of lithium, a key componentin renewanle energy.",
+        "icon": "arcticons:lithium"
+      },
+      {
+        "title": "Tourmaline mining",
+        "description": "Discover the beauty and value of tourmaline through our sustainable mining practices.",
+        "icon": "game-icons:gold-bar"
+      },
+      {
+        "title": "Tantalite mining",
+        "description": " We extract tantalite, a valuable mineral used in the electronics industry, with a focusn ethical and resposible mining.",
+        "icon": "arcticons:lithium"
+      },
+      {
+        "title": "Colombite mining",
+        "description": "Our mining operations yield high-quality colombite, a mineral used in various industrial applications.",
+        "icon": "game-icons:gold-bar"
+      },
+      {
+        "title": "Processing",
+        "description": "Discover the power of efficient processing for optimal productivity in the mining industry.",
+        "icon": "arcticons:lithium"
+      }
+    ]
+  },
+  "testimonialsData": {
+    "testimonialTitle": "Testimonial",
+    "testimonialSubTitle": "What our clients have to say",
+    "testimonialData": {
+      "useFor": "testimonial",
+      "settings": {
+        "infinite": true,
+        "speed": 1500,
+        "autoplay": true,
+        "autoplaySpeed": 5000,
+        "slidesToShow": 2,
+        "slidesToScroll": 1,
+        "arrows": false,
+        "lazyLoad": "ondemand",
+        "dots": true,
+        "responsive": [
+          {
+            "breakpoint": 991,
+            "settings": {
+              "slidesToShow": 1,
+              "autoplay": true
+            }
+          }
+        ]
+      },
+      "info": [
+        {
+          "imgLink": "/images/avatar-1.jpg",
+          "name": "John D",
+          "designation": "Chief Executive Officer, Green mines",
+          "text": "Impressed by their expertise and efficiency. They delivered exceptional results, exceeding our expectations. Highly recommend their mining services!"
+        },
+        {
+          "imgLink": "/images/avatar-2.jpg",
+          "name": "Sarah L",
+          "designation": "Chief Executive Officer, Blue mines",
+          "text": "Professional and reliable mining services. Their attention to detail and commitment to safety is commendable. A trusted partner in our mining operations."
+        },
+        {
+          "imgLink": "/images/avatar-3.jpg",
+          "name": "Mark R",
+          "designation": "Chief Executive Officer, Yellow mines",
+          "text": "Outstanding mining solutions! Their team's knowledge and innovative approach helped us optimize production and achieve remarkable cost savings. Truly impressive!"
+        },
+        {
+          "imgLink": "/images/avatar-4.jpg",
+          "name": "Emily S",
+          "designation": "Chief Executive Officer, Red mines",
+          "text": "Top-notch mining services! They consistently deliver on time and within budget. Their expertise has been instrumental in our mining success. Highly satisfied!"
+        }
+      ]
+    },
+    "brandData": {
+      "useFor": "brand",
+      "settings": {
+        "infinite": true,
+        "speed": 1000,
+        "autoplay": true,
+        "autoplaySpeed": 3000,
+        "slidesToShow": 5,
+        "slidesToScroll": 1,
+        "arrows": false,
+        "lazyLoad": "ondemand",
+        "responsive": [
+          {
+            "breakpoint": 991,
+            "settings": {
+              "slidesToShow": 4
+            }
+          },
+          {
+            "breakpoint": 767,
+            "settings": {
+              "slidesToShow": 3
+            }
+          },
+          {
+            "breakpoint": 567,
+            "settings": {
+              "slidesToShow": 2
+            }
+          }
+        ]
+      },
+      "info": [
+        {
+          "imgLink": "/images/brand-1.jpg"
+        },
+        {
+          "imgLink": "/images/brand-2.jpg"
+        },
+        {
+          "imgLink": "/images/brand-3.jpg"
+        },
+        {
+          "imgLink": "/images/brand-4.jpg"
+        },
+        {
+          "imgLink": "/images/brand-5.jpg"
+        },
+        {
+          "imgLink": "/images/brand-6.jpg"
+        }
+      ]
+    }
+  },
+  "projectData": {
+    "projectTitle": "Our works",
+    "projectSubTitle": "Latest Projects",
+    "projectDescription": "Discover our impressive mining projects, showcasing our expertise in extracting valuable resources sustainably and efficiently. Explore our latest ventures and see how we're shaping the future of the mining industry!",
+    "projectsData": [
+      {
+        "id": "1",
+        "imgLink": "/images/explosion.jpg",
+        "title": "Explosive handling",
+        "category": "Extraction",
+        "content": "Explosive handling is a critical aspect of the mining industry, where explosives are used to break and fragment rock for various purposes. It involves the safe and controlled use of explosives to facilitate the extraction of minerals and the construction of infrastructure such as tunnels and shafts. Proper handling of explosives is essential to ensure the safety of workers, protect the environment, and maximize the efficiency of mining operations. In the mining industry, explosives are commonly used in two main applications: blasting and rock fragmentation. Blasting refers to the controlled detonation of explosives to break down large rock formations and create access to mineral deposits. This process involves careful planning, including the determination of blast patterns, the selection of appropriate explosives, and the precise timing of detonations. Skilled explosive handlers work closely with mining engineers to ensure that the blasts are effective and safe.<br /><br /> <br/>Rock fragmentation is another important application of explosive handling in mining. By strategically placing explosives in specific patterns, miners can break down rock into smaller, more manageable pieces. This facilitates the extraction of minerals and reduces the need for excessive manual labor. Proper handling of explosives in rock fragmentation requires expertise and adherence to safety protocols to prevent accidents and minimize environmental impact.Safety is paramount in explosive handling. Strict regulations and protocols are in place to ensure the safe storage, transportation, and usage of explosives. This includes proper training for personnel involved in handling explosives, regular inspections of storage facilities, and the implementation of safety measures such as blast area clearance and warning systems. By following these guidelines, the mining industry aims to minimize the risk of accidents and protect the well-being of workers and nearby communities.In conclusion, explosive handling is a crucial aspect of the mining industry, enabling the extraction of minerals and the construction of infrastructure. It requires careful planning, adherence to safety protocols, and skilled personnel to ensure the safe and efficient use of explosives. By prioritizing safety and following best practices, the mining industry can continue to harness the power of explosives while minimizing risks and environmental impact.",
+        "client": "Green miners",
+        "engineer": "Halleluyah",
+        "service": "Gold extraction",
+        "date": "16-04-2022",
+        "location": "maldona"
+      },
+      {
+        "id": "2",
+        "imgLink": "/images/tunnel.jpg",
+        "title": "Undercut protection",
+        "category": "Construction",
+        "content": "Undercut protection plays a crucial role in ensuring the safety and stability of underground mining operations. In the mining industry, undercutting refers to the process of excavating the lower portion of a rock or mineral deposit to create a stable working area. This technique is commonly used in underground mining to prevent the collapse of overlying rock and maintain a safe working environment for miners. The primary objective of undercut protection is to prevent the occurrence of roof falls or collapses, which can pose significant risks to the safety of miners and disrupt mining operations. By removing the lower portion of the deposit, miners create a void space that acts as a buffer zone, absorbing the pressure and weight of the overlying rock mass. This helps to reduce stress on the roof and prevent it from collapsing.There are various methods and technologies employed in undercut protection. One common approach is the use of support systems, such as rock bolts, mesh, and shotcrete, to reinforce the roof and stabilize the excavated area. These support systems provide structural integrity to the rock mass and prevent the propagation of fractures or cracks that could lead to roof falls.<br/> <br /> <br />Another important aspect of undercut protection is proper monitoring and assessment of the stability of the excavated area. This involves the use of geotechnical instruments and techniques to measure and analyze factors such as ground movement, stress distribution, and rock mass behavior. By continuously monitoring these parameters, miners can detect any signs of instability and take appropriate measures to ensure the safety of the working area. In addition to the technical aspects, effective communication and training are essential for successful undercut protection in the mining industry. Miners must receive proper training on the importance of undercutting and the correct implementation of support systems. Regular safety meetings and inspections help to reinforce the importance of undercut protection and ensure that all workers are aware of the necessary precautions and procedures. In conclusion, undercut protection is a critical component of underground mining operations. It involves the removal of the lower portion of a rock or mineral deposit to create a stable working area and prevent roof falls or collapses. Through the use of support systems, monitoring techniques, and proper training, the mining industry can ensure the safety and stability of underground mining operations, protecting the well-being of miners and maintaining the efficiency of mining activities.",
+        "client": "Yellow miners",
+        "engineer": "Akinbobola",
+        "service": "Safety",
+        "date": "09-07-2021",
+        "location": "santorini"
+      },
+      {
+        "id": "3",
+        "imgLink": "/images/pit.jpg",
+        "title": "Copper crushing",
+        "category": "Processing",
+        "content": "Copper crushing is an essential process in the mining industry, specifically in copper mining. Copper is a widely used metal that has various applications, ranging from electrical wiring to construction materials. To extract copper from its ore, it needs to go through a series of crushing stages. The first step in copper crushing is the primary crushing stage, where large rocks and ore are initially broken down into smaller pieces. This is typically done using jaw crushers or gyratory crushers, which apply pressure to the material to break it apart. The crushed material is then transported to secondary and tertiary crushing stages. In the secondary crushing stage, the crushed copper ore is further reduced in size using cone crushers or impact crushers. These crushers use a rotating cone or rotor to apply compression or impact forces to the material, breaking it down into smaller fragments. This process ensures that the copper ore is finely crushed to facilitate the subsequent steps of the extraction process. <br /><br /> <br />After the secondary crushing stage, the copper ore undergoes further size reduction in the tertiary crushing stage. This is typically done using high-pressure grinding rolls (HPGR) or vertical shaft impact crushers. These machines apply intense pressure or impact forces to further break down the copper ore into even smaller particles. The finely crushed copper ore is then ready for the next steps in the mining process, which involve separating the copper from the other minerals present in the ore. This is typically done through a combination of flotation, smelting, and refining processes. In conclusion, copper crushing is a crucial step in the mining industry to extract copper from its ore. Through a series of crushing stages, the copper ore is broken down into smaller fragments, facilitating the subsequent extraction processes. This process ensures that the copper is finely crushed and ready for further separation and refinement.",
+        "client": "Blue miners",
+        "engineer": "Halleluyah",
+        "service": "Corper crushing",
+        "date": "20-09-2023",
+        "location": "ontario"
+      },
+      {
+        "id": "4",
+        "imgLink": "/images/dumpers.jpg",
+        "title": "Drilling",
+        "category": "Extraction",
+        "content": "Drilling is a fundamental process in the mining industry that plays a crucial role in the exploration, extraction, and development of mineral resources. It involves the use of specialized equipment to bore holes into the earth's surface, allowing geologists and mining engineers to gather valuable data and access mineral deposits. Let's delve into the significance of drilling in the mining industry. Exploration drilling is the initial phase of mining operations, where geologists aim to identify potential mineral deposits. They use drilling rigs to extract core samples from the ground, which are then analyzed to determine the presence and quality of minerals. This data helps mining companies assess the economic viability of a site and make informed decisions regarding further development.<br /> <br /> <br />Once a mineral deposit is discovered, production drilling comes into play. This involves drilling holes into the deposit to extract the minerals. Various drilling techniques, such as rotary drilling, diamond drilling, and blasthole drilling, are employed based on the characteristics of the deposit and the desired extraction method. Production drilling allows for the extraction of minerals in a controlled and efficient manner.Drilling also plays a crucial role in mine development. It helps in the construction of infrastructure, such as tunnels, shafts, and access roads, which are essential for underground mining operations. Additionally, drilling is used for geotechnical purposes to assess the stability of the mine and ensure worker safety.Furthermore, drilling technology continues to advance, leading to improved efficiency and accuracy in the mining industry. Automated drilling systems, remote-controlled rigs, and real-time data monitoring have revolutionized the drilling process, enhancing productivity and reducing costs. These advancements also contribute to safer working conditions for miners.In conclusion, drilling is an integral part of the mining industry, enabling exploration, extraction, and mine development. It provides valuable data for geological assessments, aids in the extraction of minerals, and contributes to the overall efficiency and safety of mining operations. The continuous advancements in drilling technology further enhance the industry's capabilities and sustainability.",
+        "client": "Blue miners",
+        "engineer": "Leke",
+        "service": "Research",
+        "date": "10-07-2022",
+        "location": "south africa"
+      },
+      {
+        "id": "5",
+        "imgLink": "/images/gold.jpeg",
+        "title": "Gold mining",
+        "category": "Processing",
+        "content": "Gold mining has been a cornerstone of the mining industry for centuries, and our expertise in this field spans the entire mining process. From exploration and prospecting to extraction and processing, we provide comprehensive solutions for gold mining projects.Gold mining is the process of extracting gold from the Earth's crust. It has been practiced for centuries and plays a significant role in various industries, including jewelry, finance, and electronics. Gold is typically found in underground deposits or in rivers and streams. The mining process involves several stages. First, exploration is conducted to identify potential gold-rich areas. <br /> <br /> <br />Then, the site is prepared for mining, which may involve clearing vegetation and constructing infrastructure. Once the site is ready, the extraction process begins. There are different methods used in gold mining, including placer mining, underground mining, and open-pit mining. Placer mining involves using water to separate the gold from sediment. Underground mining involves tunnels and shafts to access the gold-bearing ore. Open-pit mining involves removing the topsoil and extracting gold from large open pits. After the gold is extracted, it goes through a refining process to remove impurities and obtain pure gold. This refined gold can be used for various purposes, such as making jewelry, investment, or industrial applications. Gold mining has both positive and negative impacts. On one hand, it contributes to economic growth and job creation. On the other hand, it can have environmental consequences, such as habitat destruction and pollution.",
+        "client": "Blue miners",
+        "engineer": "Leke",
+        "service": "Research",
+        "date": "10-07-2022",
+        "location": "south africa"
+      },
+      {
+        "id": "6",
+        "imgLink": "/images/filter.jpg",
+        "title": "Filtering",
+        "category": "Processing",
+        "content": "Filtering plays a crucial role in the mining industry, helping to separate valuable minerals and materials from the ore. It is an essential process that ensures the quality and purity of the final product. Let's delve into the details of filtering in the mining industry. In mining operations, large quantities of ore are extracted from the Earth. However, this ore often contains a mixture of valuable minerals and unwanted impurities. Filtering is employed to separate these components and recover the valuable minerals efficiently. The filtering process begins after the initial extraction of the ore. The ore is crushed and ground into smaller particles to increase the surface area for efficient separation. It is then mixed with water to form a slurry, which is transported to the filtration system. Various types of filters are used in the mining industry, including vacuum filters, pressure filters, and centrifugal filters. These filters employ different mechanisms to separate the solids from the liquid. Vacuum filters use suction to draw the slurry through a porous filter medium, trapping the solid particles while allowing the liquid to pass through. Pressure filters, on the other hand, apply pressure to force the slurry through the filter medium, separating the solids from the liquid. <br /> <br /> <br /> Centrifugal filters utilize centrifugal force to separate the solid particles from the liquid. The slurry is fed into a rotating drum or cone, and the centrifugal force causes the solids to settle on the walls while the liquid is discharged. The choice of filter depends on various factors, such as the nature of the ore, desired product quality, and processing capacity. Mining companies often employ a combination of filters to optimize the separation process. Efficient filtering is crucial in the mining industry, as it directly impacts the quality of the final product. It helps remove impurities, such as unwanted minerals, rocks, and other particles, ensuring that the extracted minerals meet the required specifications. Moreover, filtering also plays a significant role in environmental sustainability. By effectively separating the valuable minerals from the waste materials, mining operations can minimize the environmental impact and reduce the amount of waste generated. In conclusion, filtering is an essential process in the mining industry. It enables the separation of valuable minerals from the ore, ensuring the production of high-quality products. By employing various types of filters, mining companies can efficiently recover valuable minerals while minimizing environmental impact.",
+        "client": "Blue miners",
+        "engineer": "Halleluyah",
+        "service": "Corper crushing",
+        "date": "20-09-2023",
+        "location": "ontario"
+      },
+      {
+        "id": "7",
+        "imgLink": "/images/dumper.jpg",
+        "title": "Lithium mining",
+        "category": "Extraction",
+        "content": "Lithium mining has gained significant attention in recent years due to the growing demand for lithium-ion batteries, which are used in various applications, including electric vehicles and renewable energy storage. Let's explore the role of lithium mining in the mining industry. Lithium is a highly sought-after metal due to its unique properties that make it an ideal choice for battery production. It is lightweight, has high energy density, and can store and release electrical energy efficiently. As a result, lithium-ion batteries have become the preferred choice for powering electric vehicles and storing renewable energy.Lithium mining involves the extraction of lithium-rich minerals from underground or open-pit mines. The process begins with prospecting and exploration to identify potential lithium deposits. Once a viable deposit is discovered, the mining operation begins.There are different methods employed in lithium mining, depending on the type of deposit. Lithium can be found in hard rock deposits, such as spodumene, or in brine deposits, which are underground reservoirs of concentrated lithium-rich brine.<br /> <br /> <br />In hard rock mining, the ore-bearing rocks are extracted from the ground and transported to a processing plant. The ore is then crushed, and the lithium-bearing minerals are separated through various physical and chemical processes. This typically involves grinding the ore into a fine powder and subjecting it to flotation or magnetic separation to concentrate the lithium minerals.Brine deposits, on the other hand, involve pumping the lithium-rich brine to the surface and allowing it to evaporate in large evaporation ponds. As the water evaporates, lithium salts precipitate and can be further processed to extract lithium.Lithium mining presents both opportunities and challenges. On one hand, it provides a valuable resource for the growing demand for lithium-ion batteries, supporting the transition to cleaner energy sources. On the other hand, it raises concerns about the environmental impact of mining operations, particularly in sensitive ecosystems.Mining companies are increasingly adopting sustainable practices to mitigate these concerns. This includes implementing stringent environmental regulations, minimizing water usage, and adopting technologies to reduce the carbon footprint of mining operations.In conclusion, lithium mining plays a crucial role in the mining industry, driven by the demand for lithium-ion batteries. It involves the extraction of lithium-rich minerals from hard rock or brine deposits. While it presents opportunities for clean energy storage, it also raises environmental concerns. Mining companies are actively working towards sustainable practices to ensure responsible lithium extraction.",
+        "client": "Yellow miners",
+        "engineer": "Akinbobola",
+        "service": "Safety",
+        "date": "09-07-2021",
+        "location": "santorini"
+      },
+      {
+        "id": "8",
+        "imgLink": "/images/gold-pit.jpg",
+        "title": "Colombite research",
+        "category": "Exploration",
+        "content": "Colombite, also known as columbite-tantalite or coltan, is a valuable mineral that has gained attention in the mining industry due to its high content of tantalum and niobium. These metals are essential in the production of electronic devices, such as smartphones, laptops, and other high-tech gadgets. Let's explore the significance of colombite research in the mining industry. Colombite is typically found in regions rich in geological deposits, such as the Democratic Republic of Congo, Brazil, and Australia. The extraction of colombite involves mining operations that aim to recover the tantalum and niobium minerals from the ore.Research on colombite focuses on several aspects. Firstly, it aims to identify new deposits and assess their economic viability. Geologists and mining companies conduct extensive surveys and exploration activities to locate potential colombite deposits. This research helps in determining the feasibility of mining operations and estimating the mineral reserves.<br /> <br/> <br />Additionally, colombite research focuses on developing efficient extraction methods. Mining companies strive to optimize the recovery of tantalum and niobium minerals from the ore, while minimizing environmental impacts. This involves the use of advanced technologies and processes, such as gravity separation, magnetic separation, and flotation.Furthermore, research in the colombite mining industry aims to address sustainability concerns. Mining operations can have significant environmental and social impacts, including deforestation, habitat destruction, and human rights issues. Researchers work on developing sustainable practices to mitigate these concerns, such as land rehabilitation, responsible waste management, and community engagement.Colombite research also plays a role in ensuring a transparent and ethical supply chain. Due to the association of colombite with conflict minerals and illegal mining practices in certain regions, researchers and industry stakeholders are working towards establishing traceability systems and certifications to ensure that colombite is sourced responsibly.In conclusion, colombite research is crucial in the mining industry, as it helps in identifying viable deposits, developing efficient extraction methods, addressing sustainability concerns, and ensuring ethical sourcing. This research contributes to the responsible and sustainable production of tantalum and niobium minerals, which are essential in the manufacturing of electronic devices.",
+        "client": "Yellow miners",
+        "engineer": "Akinbobola",
+        "service": "Safety",
+        "date": "09-07-2021",
+        "location": "santorini"
+      }
+    ]
+  },
+  "contactData": {
+    "contactTitle": "Contact us",
+    "contactSubTitle": "Drop us a line",
+    "contactDescription": "We're thrilled to hear from you. Have any questions, feedback, or inquiries, please don't hesitate to reach out to us. Our friendly team is here to assist you.",
+    "conTitle": "Contact",
+    "conSubTitle": "Get in touch",
+    "conDescription": "Ready to take your mining operations to the next level? We can't wait to hear from you and provide the personalized support you need to achieve success in the mining industry!",
+    "contactsData": [
+      {
+        "icon": "bi:envelope",
+        "title": "Email",
+        "description": "<a href='mailto: suppot@shiningclass.com'>suppot@shiningclass.com</a> <br /><a href='mailto: info@shiningclass.com'> info@shiningclass.com </a>",
+        "delay": "100"
+      },
+      {
+        "icon": "ph:phone-call",
+        "title": "Phone",
+        "description": "<a href='tel: +2348055666633'>+234 805 5666 633 </a><br /><a href='+2348055666633'>+234 805 5666 633 </a>",
+        "delay": "200"
+      },
+      {
+        "icon": "ion:location-outline",
+        "title": "Address",
+        "description": "Zion City, Olorunda Abaa <br /> Ibadan, Oyo State",
+        "delay": "300"
+      }
+    ]
+  },
+  "teamData": {
+    "useFor": "team",
+    "settings": {
+      "infinite": true,
+      "speed": 1000,
+      "autoplay": true,
+      "autoplaySpeed": 3000,
+      "slidesToShow": 3,
+      "slidesToScroll": 1,
+      "lazyLoad": "ondemand",
+      "responsive": [
+        {
+          "breakpoint": 1200,
+          "settings": {
+            "slidesToShow": 2
+          }
+        },
+        {
+          "breakpoint": 767,
+          "settings": {
+            "slidesToShow": 1
+          }
+        }
+      ]
+    },
+    "info": [
+      {
+        "name": "Akinbobola Adebayo",
+        "position": "Chairman",
+        "imgLink": "/images/avatar-1.jpg",
+        "tw": "https://www.instagram.com",
+        "in": "https://www.linkedin.com",
+        "fb": "https://www.facebook.com"
+      },
+      {
+        "name": "Inioluwa Akinbobola",
+        "position": "CEO, Chief Executive Officer",
+        "imgLink": "/images/avatar-2.jpg",
+        "tw": "https://www.instagram.com",
+        "in": "https://www.linkedin.com",
+        "fb": "https://www.facebook.com"
+      },
+      {
+        "name": "Halleluyah Akinbobola",
+        "position": "Project Manager",
+        "imgLink": "/images/avatar-3.jpg",
+        "tw": "https://www.instagram.com",
+        "in": "https://www.linkedin.com",
+        "fb": "https://www.facebook.com"
+      },
+      {
+        "name": "Akinlabi Akintunde",
+        "position": "GM, General Manager",
+        "imgLink": "/images/avatar-4.jpg",
+        "tw": "https://www.instagram.com",
+        "in": "https://www.linkedin.com",
+        "fb": "https://www.facebook.com"
+      },
+      {
+        "name": "Leke Akande",
+        "position": "Mining manager",
+        "imgLink": "/images/engineer.jpg",
+        "tw": "https://www.instagram.com",
+        "in": "https://www.linkedin.com",
+        "fb": "https://www.facebook.com"
+      }
+    ]
+  },
+  "SPData": {
+    "spTitle": "What we offer",
+    "spSubTitle": " Our main services",
+    "spDescription": "Shining Class, where we bring the power of mining to life! Our team is dedicated to providing top-notch services that cater to the unique needs of the mining industry. From exploration and excavation to transportation and processing, we've got you covered.",
+    "spboxData": [
+      {
+        "title": "Extraction",
+        "description": "Unleash the potential of valuable resources with our expert extraction services. We'll help you efficiently extract minerals such as gold, lithium and lots more from the earth.",
+        "imgLink": "/images/extraction.jpg"
+      },
+      {
+        "title": "Exploration",
+        "description": "Embark on an exciting journey of discovery with our comprehensive exploration services. We'll assist you in identifying and evaluating potential mining sites.",
+        "imgLink": "/images/gold-pit.jpg"
+      },
+      {
+        "title": "Drilling",
+        "description": "Unlock the hidden treasures beneath the surface with our state-of-the-art drilling services. Our skilled team will ensure precise and efficient drilling operations.",
+        "imgLink": "/images/drilling.jpg"
+      },
+      {
+        "title": "Blasting",
+        "description": "Harness the power of controlled explosions with our blasting services. We'll help you safely fragment and remove rock to facilitate mining operations.",
+        "imgLink": "/images/explosion.jpg"
+      },
+      {
+        "title": "Excavation",
+        "description": "Dig deep into success with our professional excavation services. We'll handle the heavy lifting and earthmoving to uncover valuable resources.",
+        "imgLink": "/images/excavation.jpg"
+      },
+
+      {
+        "title": "Processing",
+
+        "description": " Maximize the value of your minerals with our top-notch processing services. We'll help you refine and prepare them for various industries.",
+        "imgLink": "/images/settings.jpg"
+      }
+    ],
+    "chooseData": {
+      "chTitle": "Why we are ",
+      "chSubTitle": "Different from others",
+      "chDescription": "Our unwavering commitment to excellence, safety, and innovation is unmatched. We combine our extensive industry expertise with cutting-edge technology to deliver exceptional results for our clients. ",
+      "chData": [
+        {
+          "icon": "material-symbols-light:punch-clock-outline-rounded",
+          "title": "Expertise",
+          "description": "With our deep industry expertise, we're equipped to handle even the most complex challenges and deliver top-notch results."
+        },
+        {
+          "icon": "material-symbols-light:punch-clock-outline-rounded",
+          "title": "Innovation",
+          "description": "By leveraging cutting-edge technologies and staying up-to-date with industry advancements, we're able to provide our clients with the most innovative solutions that drive success."
+        },
+        {
+          "icon": "material-symbols-light:punch-clock-outline-rounded",
+          "title": "Quality",
+          "description": "Our streamlined processes, attention to detail, and commitment to continuous improvement enable us to consistently deliver high-quality results on time and within budget."
+        }
+      ]
+    },
+    "countData": [
+      {
+        "icon": "healthicons:accident-and-emergency-outline",
+        "number": 365,
+        "description": "Accident-free days"
+      },
+      {
+        "icon": "healthicons:accident-and-emergency-outline",
+
+        "number": 10000,
+        "description": "Tons extracted"
+      },
+      {
+        "icon": "healthicons:accident-and-emergency-outline",
+        "number": 200,
+        "description": "Skilled Workforce"
+      },
+      {
+        "icon": "healthicons:accident-and-emergency-outline",
+        "number": 1000,
+        "description": "Successful Projects"
+      }
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+.contacts {
+  padding: 100px;
+  @include padding;
+  @include contacts;
+
+  .contacts-heading {
+    @include heading;
+  }
+
+  @include mid-screen {
+    .contacts-heading {
+      width: 100%;
+    }
+  }
+}

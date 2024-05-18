@@ -1,0 +1,117 @@
+.testimonial {
+  background: linear-gradient(
+    270.16deg,
+    $color-primary-hover 5.74%,
+    $color-primary 92.05%
+  );
+  color: $color-white;
+  padding: 100px;
+
+  .testimonial-heading {
+    @include heading;
+    margin-bottom: 40px;
+    h2 {
+      color: $color-white;
+    }
+  }
+
+  .testimonial-container {
+    .slick-slide {
+      padding: 0 12px;
+    }
+    .testimonials {
+      margin-bottom: 100px;
+      .single-testimonial {
+        .single-testimonial-container {
+          display: flex;
+          gap: 20px;
+          .content-container {
+            .content {
+              display: flex;
+              flex-direction: column;
+              p {
+                font-size: 20px;
+                font-weight: 600;
+                line-height: 1.4;
+                margin-bottom: 40px;
+              }
+              .info {
+                margin-top: auto;
+                h5 {
+                  margin: 0 0 4px;
+                }
+                span {
+                  opacity: 0.75;
+                }
+              }
+            }
+          }
+          .image-container {
+            .image {
+              width: 150px;
+              height: 200px;
+            }
+          }
+
+          @include xma-screen {
+            flex-direction: column;
+
+            .image-container {
+              .image {
+                width: 250px;
+                height: 250px;
+              }
+            }
+          }
+        }
+      }
+
+      .slick-slide {
+        margin-bottom: 50px;
+      }
+
+      .slick-dots {
+        text-align: center;
+        font-size: 0px;
+        padding-top: 20px;
+        margin: 0;
+        width: 100%;
+        li {
+          display: inline-block;
+          vertical-align: top;
+          width: 10px;
+          height: 10px;
+          background: transparent;
+          border: 1px solid $color-white;
+          transition: ease all 0.55s;
+          border-radius: 8px;
+          margin: 0 4px;
+          &.slick-active {
+            background: $color-primary;
+            width: 20px;
+          }
+          button {
+            height: 0;
+            width: 0;
+            opacity: 0;
+          }
+        }
+      }
+    }
+    .testimonials-brand {
+      border-top: 1px solid $color-white;
+      padding-top: 20px;
+      .brand-box {
+        height: 70px;
+      }
+
+      @include sma-screen {
+        .brand-box {
+          height: 50px;
+        }
+      }
+    }
+  }
+
+  @include padding;
+}

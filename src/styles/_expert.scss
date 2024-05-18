@@ -1,0 +1,68 @@
+.expert {
+  height: 450px;
+  padding: 100px;
+  @include padding;
+  color: $color-white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(#00000060, #00000060),
+    #00000099 url("../../public/images/mine-blue.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: multiply;
+
+  .expert-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    .content {
+      width: 90%;
+      margin: auto;
+      h1 {
+        font-weight: 400;
+        font-size: 3rem;
+        text-transform: capitalize;
+      }
+      p {
+        margin: 10px 0 50px;
+        font-size: 1.2rem;
+        line-height: 1.7;
+      }
+
+      .btn {
+        padding: 15px 40px;
+        border: 1px solid $color-white;
+        font-size: 1rem;
+        text-transform: uppercase;
+        background: $color-primary;
+        color: $color-white;
+        transition: all 0.3s ease-in-out;
+        cursor: pointer;
+
+        &:hover {
+          background: $color-primary-hover;
+        }
+      }
+
+      @include sma-screen {
+        width: 100%;
+        h1 {
+          font-size: 2rem;
+        }
+        p {
+          line-height: 1.5;
+          margin-bottom: 30px;
+          font-size: 1rem;
+        }
+        .btn {
+          font-size: 0.95rem;
+        }
+      }
+    }
+  }
+}

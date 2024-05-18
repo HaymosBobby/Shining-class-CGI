@@ -1,0 +1,171 @@
+.about-page {
+  .about-page-container {
+    padding: 100px;
+    @include padding;
+
+    .about-page-heading {
+      @include heading;
+
+      text-align: center;
+      margin: auto;
+    }
+    .content-container {
+      display: flex;
+      margin-top: 50px;
+      gap: 30px;
+      color: $color-white;
+      margin-bottom: 100px;
+
+      .image {
+        flex: 1;
+
+        img {
+          height: inherit;
+        }
+      }
+
+      .content-wrapper {
+        flex: 1;
+
+        .navigations {
+          ul {
+            display: flex;
+            gap: 2px;
+            border-bottom: 2px solid $color-primary;
+
+            li {
+              padding: 15px 20px;
+              transition: all 0.3s ease-in-out;
+              cursor: pointer;
+              background: #00000040;
+
+              &.current {
+                background: $color-primary;
+              }
+            }
+          }
+        }
+
+        .content {
+          padding: 20px;
+          line-height: 1.7;
+          @include hidden;
+          background: $color-secondary;
+        }
+      }
+    }
+
+    .team-container {
+      .team-heading {
+        @include heading;
+        text-align: center;
+        margin: auto;
+      }
+
+      .team-wrapper {
+        margin-top: 50px;
+        .slick-slide {
+          padding: 20px;
+
+          .team-member {
+            box-shadow: $color-boxShadow;
+            .image {
+              background-color: red;
+              height: 400px;
+              position: relative;
+              @include hidden;
+
+              img {
+                transition: all 0.3s ease-in-out;
+              }
+
+              .member-socials {
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background: $color-primary;
+                width: 100%;
+                transform: translateY(50px);
+                opacity: 0;
+                transition: all 0.6s ease-in-out;
+                height: 50px;
+
+                ul {
+                  display: flex;
+                  align-items: center;
+                  gap: 10px;
+                  justify-content: center;
+
+                  li {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    padding: 10px;
+                    color: $color-white;
+                  }
+                }
+              }
+            }
+            .information {
+              padding: 10px;
+
+              h4 {
+                font-family: "Playfair Display", serif;
+                margin-bottom: 10px;
+                font-weight: 600;
+                font-size: 1.2rem;
+                letter-spacing: 1px;
+              }
+
+              h5 {
+                font-size: 0.9rem;
+                opacity: 0.7;
+              }
+            }
+
+            &:hover {
+              .image {
+                img {
+                  filter: brightness(60%) grayscale(10%);
+                }
+                .member-socials {
+                  transform: none;
+                  opacity: 1;
+                }
+              }
+            }
+          }
+        }
+
+        .slick-arrow {
+          top: -10px;
+          font-family: "Ninuto sans" sans-serif;
+        }
+
+        .slick-next {
+          right: 10px;
+        }
+
+        .slick-prev {
+          right: 50px;
+          left: auto;
+        }
+
+        .slick-prev::before,
+        .slick-next::before {
+          color: $color-primary;
+          opacity: 1;
+          font-size: 2rem;
+        }
+      }
+    }
+    @include sma-screen {
+      .content-container {
+        flex-direction: column-reverse;
+      }
+    }
+  }
+}
