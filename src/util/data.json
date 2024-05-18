@@ -471,18 +471,18 @@
         "description": "Accident-free days"
       },
       {
-        "icon": "healthicons:accident-and-emergency-outline",
+        "icon": "game-icons:extraction-orb",
 
         "number": 10000,
         "description": "Tons extracted"
       },
       {
-        "icon": "healthicons:accident-and-emergency-outline",
+        "icon": "fluent-mdl2:workforce-management",
         "number": 200,
         "description": "Skilled Workforce"
       },
       {
-        "icon": "healthicons:accident-and-emergency-outline",
+        "icon": "carbon:ibm-cloud-projects",
         "number": 1000,
         "description": "Successful Projects"
       }
